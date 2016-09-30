@@ -6,6 +6,32 @@ body {
     color: #1A1A1A;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.outerlist li {
+    padding-bottom: 0.5em;
+}
+
+.innerlist li {
+    padding-top: 0.5em;
+    padding-bottom: 0;
+}
+
+.subsection {
+    font-weight: bold;
+}
+
+.description {
+    padding-left: 2em;
+}
+
 .nav_home {
     max-width: 100%;
     max-height: 100%;
